@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 export const Counter = () => {
-  const [num,setnum] = useState(1);
+  const [num,setnum] = useState(0);
 
     const sumar=()=>{
 
