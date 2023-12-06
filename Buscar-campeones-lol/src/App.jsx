@@ -1,9 +1,11 @@
-import { Counter } from "./components/Counter";
+import Search from "./components/Search";
+
 function App() {
   return (
     <>
-      <h1>Contador</h1>
-      <Counter/>
+      <header>Buscar campeones de League of Legends </header>
+      <hr/>
+      <Search/>
     </>
   );
 }
