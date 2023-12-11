@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import ListaCampeones from './components/ListaCampeones';
+//import BuscarInvocador from './components/BuscarInvocador';
 
 const App = () => {
   const [campeones, setCampeones] = useState([]);
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <div>
       <header>Campeones de League of Legends</header>
+      {/*<BuscarInvocador/>*/}
       <ListaCampeones campeones={campeones}/>
     </div>
   );
