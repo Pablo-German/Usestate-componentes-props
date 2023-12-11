@@ -6,7 +6,7 @@ const BuscarInvocador = () => {
 
   const Buscar = async () => {
     try {
-      const response = await fetch(`https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/${nombreInvocador}?api_key=`);
+      const response = await fetch(``);
       const data = await response.json();
 
       // Actualizar el estado con los datos del invocador
