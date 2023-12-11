@@ -17,6 +17,11 @@ header {
   font-size: 2em;
 }
 
+.BuscarCampeon{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
 .container-padre {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +94,4 @@ header {
 
 #informacion {
   background-color: #f0f0f0;
-}
-.BuscarInvocador{
-  align-items: center;
 }

@@ -13,7 +13,7 @@ const ListaCampeones = ({ campeones }) => {
                 <p>{camp.blurb}</p>
               </div>
   
-              <div id="informacion" className="champion-section">
+            {/*  <div id="informacion" className="champion-section">
                 <h2>Información</h2>
                 <ul>
                   {Object.entries(camp.info).map(([key, value]) => (
@@ -38,7 +38,7 @@ const ListaCampeones = ({ campeones }) => {
                     <li key={`${idx}-${key}`}>{`${key}: ${value}`}</li>
                   ))}
                 </ul>
-              </div>
+                  </div>*/}
             </div>
           </div>
         ))}

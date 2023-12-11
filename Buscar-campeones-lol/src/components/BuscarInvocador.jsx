@@ -27,7 +27,7 @@ const BuscarInvocador = () => {
       <button onClick={Buscar}>Buscar Invocador</button>
 
       {datosInvocador && (
-        <div>
+        <div className="champion-section">
           <h2>Datos del Invocador:</h2>
           <p>Nombre: {datosInvocador.name}</p>
           <p>Nivel: {datosInvocador.summonerLevel}</p>
